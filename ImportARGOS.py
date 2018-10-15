@@ -7,6 +7,12 @@
 ## Usage: ImportArgos <ARGOS folder> <Output feature class> 
 ##
 ## Created: Fall 2018
-## Author: emily.tucker1@duke.edu (for ENV859)
+## Author: John.Fay@duke.edu (for ENV859)
 ##---------------------------------------------------------------------
 
+# Import modules
+import sys, os, arcpy
+
+# Set input variables (Hard-wired)
+inputFile = '../Data/ARGOSData/1997dg.txt'
+outputFC = '../Scratch/ARGOStrack.shp'
